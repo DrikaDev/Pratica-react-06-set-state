@@ -4,10 +4,6 @@ import './App.css';
 
 export default class App extends Component{
 
-  // state = {
-  //   nome: "Adriana"
-  // }
-
   state = {
     numero: 0
   }
@@ -28,19 +24,8 @@ export default class App extends Component{
     }
   }
 
-  // trocarNome = () => {
-  //   this.setState({
-  //     nome: "Nicolas"
-  //   })
-  //   document.body.style.backgroundColor = 'lightblue'
-  // }
-
   render(){
     return(
-      // <div>
-      //   <h1>Boa tarde {this.state.nome}!</h1>
-      //   <button onClick={this.trocarNome}>Trocar pessoa</button>
-      // </div>
       <div className="card">
         <h2>Quantos itens você deseja por na sacola?</h2>
         <div className="contador">
